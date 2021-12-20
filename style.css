@@ -22,6 +22,20 @@
     font-weight: 800; /*чтобы текст стал по жирнее*/
     font-size: 24px;
     cursor: pointer;
+    margin-top: 56px;/*отступ сверху*/
+    margin-left: 12%;/*отступ слева*/
+  }
+  nav{
     margin-top: 56px;
-    margin-left: 12%;
+    margin-left: 29%;
+  }
+  .topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .topnav a:hover{
+    border-bottom: 3px solid #fcac45;
   }
