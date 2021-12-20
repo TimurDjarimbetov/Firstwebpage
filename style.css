@@ -16,3 +16,12 @@
      background: #000;
      display: flex;
   }
+  .header__logo{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800; /*чтобы текст стал по жирнее*/
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+  }
