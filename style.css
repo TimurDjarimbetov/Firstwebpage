@@ -83,9 +83,11 @@
       margin: 30px 0 50px 0;
       color: #6c6c6c;
     }
-    .about_right li{
-      background: url(/img/mac.png) 0px no-repeat;
+   
+    .mw-100{
+      min-width: 100%;
     }
+    
 
 
 
@@ -136,5 +138,32 @@
   }
   .topnav .icon{
     display: block;
+}
+
+main .main_welcome{
+  padding: 50px 0 50px 0;
+}
+main .main_welcome p{
+  font-size: 14px;
+}
+main .main_welcome h1{
+  font-size: 25px;
+}
+.mw-100{
+  max-width: 100%;
+}
+.main_about{
+  flex-direction: column;
+}
+.about_right{
+  text-align: center;
+  margin-left: 0;
+}
+.about_right li{
+  text-align: left;
+}
+.about_right h1{
+  margin-top: 10px;
+  font-size: 20px;
 }
 }
