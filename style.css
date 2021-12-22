@@ -61,14 +61,12 @@
 
 @media screen and (max-width: 1010px){
   .topnav a{
-    display: none;
-  }
-  .topnav a{
     float: right;
     margin-top: -17px;
     display: block;
     color:#fff;
     font-size: 25px;
+    display: none;
   }
   nav{
     width: 100%;
@@ -84,7 +82,7 @@
   .topnav.responsive a.icon{
     position: absolute;
     top: -50px;
-    left: -200px;
+    left: 600px;
   }
   .topnav.responsive a{
     float: none;
