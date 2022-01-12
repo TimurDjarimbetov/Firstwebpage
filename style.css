@@ -79,6 +79,9 @@
       border-bottom: 3px solid #fcac45;
       padding-bottom: 20px;
     }
+    .about_right h1:after{
+      display: none;
+    }
     .about_right p{
           margin: 30px 0 50px 0;
       color: #6c6c6c;
@@ -101,14 +104,14 @@
       padding-bottom: 30px;
 
     }
-    .line{
+   /* .line{
       width: 100px;
       height: 3px;
       background: #fcac45;
       position: relative;
       left: 45.5%;
       margin-bottom: 85px;
-      }
+      }*/
     .photo{
       background: #fcac45;
       width: 125px;
@@ -214,9 +217,9 @@
         opacity: 0.5;
 
        }
-       .line1{
+      /* .line1{
          width: 100%;
-       }
+       }*/
        .contact_from{
          padding: 100px 0 100px 0;
        }
@@ -272,6 +275,32 @@
          margin-top: 20px;
         }
 
+    h1::after{
+      content: "";
+      display: block; 
+      margin: 0 auto;
+      width: 100px;
+      padding-top:30px;
+      border-bottom: 3px solid #fcac45;
+    }
+    footer{
+      width: 100px;
+      height: auto;
+      background:#000;
+      padding: 30px 0 30px 0;
+
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+    }
+    .social img{
+      margin-left: 12px;
+    }
+    .social img:hover{
+      opacity: 0.9;
+    }
+  
 
       
 
